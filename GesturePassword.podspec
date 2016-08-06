@@ -1,25 +1,15 @@
-#
-#  Be sure to run `pod spec lint GesturePassword.podspec' to ensure this is a
-#  valid spec and to remove all comments including this before submitting the spec.
-#
-#  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
-#  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
-#
 
 Pod::Spec.new do |s|
+
   s.name         = "GesturePassword"
   s.version      = "0.0.1"
-  s.summary      = "Swift版的手势密码"
-  s.description  = <<-DESC
-                设置密码、验证密码、修改密码
-                   DESC
+  s.summary      = "swift版的手势密码"
   s.homepage     = "https://github.com/huangboju/GesturePassword"
   s.license      = "MIT"
-  s.author             = { "huangboju" => "18369956251@163.com" }
-  s.ios.deployment_target = '8.0'
+  s.author             = { "huangboju" => "529940945@qq.com" }
+  s.platform     = :ios,'8.0'
   s.source       = { :git => "https://github.com/huangboju/GesturePassword.git", :tag => "#{s.version}" }
-  s.source_files     = 'GesturePassword/GesturePassword/Classes/**/*.swift'
+  s.source_files  = "GesturePassword/Classes/**/*.swift"
   s.framework  = "UIKit"
   s.requires_arc = true
-
 end
